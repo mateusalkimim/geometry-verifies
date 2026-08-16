@@ -1,0 +1,159 @@
+{
+ "convencao": [
+  true,
+  -1.0
+ ],
+ "pontos": {
+  "poste_base": [
+   856.2169015966965,
+   584.0226044379613
+  ],
+  "poste_topo": [
+   858.4077886879941,
+   317.8651383496061
+  ],
+  "cumeeira": [
+   446.524719225186,
+   223.5965697707485
+  ],
+  "chao_casa": [
+   448.43198835842725,
+   584.0226044379613
+  ]
+ },
+ "resultados": [
+  {
+   "folha": "folha-casa-20260815.png",
+   "luz": "neutro",
+   "M1": {
+    "passa": true,
+    "razao": 1.342,
+    "erro_pct": -0.61,
+    "cume_topo_med": 226,
+    "poste_topo_med": 318,
+    "gradiente_poste": 70.6
+   },
+   "M2": {
+    "passa": true,
+    "desvio_px": 2,
+    "declarado": [
+     222,
+     647
+    ],
+    "medido": [
+     222,
+     645
+    ]
+   },
+   "M3": {
+    "passa": true,
+    "mediana_px": 1.91
+   },
+   "M5": {
+    "passa": false,
+    "suspeitos": [
+     {
+      "canto": "inf-dir",
+      "marca_px": 7810,
+      "croma_px": 5244
+     },
+     {
+      "canto": "inf-esq",
+      "marca_px": 37,
+      "croma_px": 815
+     }
+    ]
+   },
+   "braco": "A"
+  },
+  {
+   "folha": "folha-casa-20260816.png",
+   "luz": "neutro",
+   "M1": {
+    "passa": true,
+    "razao": 1.34,
+    "erro_pct": -0.7,
+    "cume_topo_med": 225,
+    "poste_topo_med": 317,
+    "gradiente_poste": 39.2
+   },
+   "M2": {
+    "passa": true,
+    "desvio_px": 8,
+    "declarado": [
+     222,
+     647
+    ],
+    "medido": [
+     230,
+     647
+    ]
+   },
+   "M3": {
+    "passa": true,
+    "mediana_px": 1.91
+   },
+   "M5": {
+    "passa": false,
+    "suspeitos": [
+     {
+      "canto": "inf-dir",
+      "marca_px": 1268,
+      "croma_px": 2507
+     },
+     {
+      "canto": "inf-esq",
+      "marca_px": 106,
+      "croma_px": 2154
+     },
+     {
+      "canto": "sup-dir",
+      "marca_px": 0,
+      "croma_px": 459
+     },
+     {
+      "canto": "sup-esq",
+      "marca_px": 0,
+      "croma_px": 422
+     }
+    ]
+   },
+   "braco": "A"
+  },
+  {
+   "folha": "folha-casa-20260817.png",
+   "luz": "neutro",
+   "M1": {
+    "passa": false,
+    "motivo": "poste AUSENTE (gradiente máx 5.6 na coluna prevista)"
+   },
+   "M2": {
+    "passa": true,
+    "desvio_px": 0,
+    "declarado": [
+     222,
+     647
+    ],
+    "medido": [
+     222,
+     647
+    ]
+   },
+   "M3": {
+    "passa": true,
+    "mediana_px": 0.95
+   },
+   "M5": {
+    "passa": false,
+    "suspeitos": [
+     {
+      "canto": "inf-esq",
+      "marca_px": 0,
+      "croma_px": 340
+     }
+    ]
+   },
+   "braco": "A"
+  }
+ ]
+}

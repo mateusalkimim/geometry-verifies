@@ -1,0 +1,302 @@
+[
+ {
+  "folha": "P1-20260815.png",
+  "M1": {
+   "passa": false,
+   "motivo": "poste AUSENTE (gradiente máx 3.5 na coluna prevista)"
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 25,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    241,
+    622
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 1.91
+  }
+ },
+ {
+  "folha": "P1-20260816.png",
+  "M1": {
+   "passa": true,
+   "razao": 1.347,
+   "erro_pct": -0.25,
+   "cume_topo_med": 222,
+   "poste_topo_med": 316,
+   "gradiente_poste": 16.3
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 31,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    191,
+    642
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 1.91
+  }
+ },
+ {
+  "folha": "P1-20260817.png",
+  "M1": {
+   "passa": true,
+   "razao": 1.357,
+   "erro_pct": 0.49,
+   "cume_topo_med": 222,
+   "poste_topo_med": 318,
+   "gradiente_poste": 22.5
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 19,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    241,
+    645
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 2.74
+  }
+ },
+ {
+  "folha": "P2-20260815.png",
+  "M1": {
+   "passa": false,
+   "motivo": "poste AUSENTE (gradiente máx 4.5 na coluna prevista)"
+  },
+  "M2": {
+   "passa": true,
+   "desvio_px": 4,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    222,
+    643
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 1.91
+  }
+ },
+ {
+  "folha": "P2-20260816.png",
+  "M1": {
+   "passa": true,
+   "razao": 1.344,
+   "erro_pct": -0.44,
+   "cume_topo_med": 220,
+   "poste_topo_med": 314,
+   "gradiente_poste": 55.0
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 19,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    241,
+    637
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 2.32
+  }
+ },
+ {
+  "folha": "P2-20260817.png",
+  "M1": {
+   "passa": false,
+   "motivo": "poste AUSENTE (gradiente máx 4.3 na coluna prevista)"
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 22,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    222,
+    625
+   ]
+  },
+  "M3": {
+   "passa": false,
+   "mediana_px": 5.19
+  }
+ },
+ {
+  "folha": "P3-20260815.png",
+  "M1": {
+   "passa": false,
+   "motivo": "poste AUSENTE (gradiente máx 2.5 na coluna prevista)"
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 54,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    276,
+    650
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 3.82
+  }
+ },
+ {
+  "folha": "P3-20260816.png",
+  "M1": {
+   "passa": false,
+   "motivo": "poste AUSENTE (gradiente máx 2.2 na coluna prevista)"
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 30,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    192,
+    668
+   ]
+  },
+  "M3": {
+   "passa": false,
+   "mediana_px": 6.56
+  }
+ },
+ {
+  "folha": "P3-20260817.png",
+  "M1": {
+   "passa": false,
+   "motivo": "poste AUSENTE (gradiente máx 2.3 na coluna prevista)"
+  },
+  "M2": {
+   "passa": false,
+   "desvio_px": 23,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    199,
+    625
+   ]
+  },
+  "M3": {
+   "passa": false,
+   "mediana_px": 9.3
+  }
+ },
+ {
+  "folha": "P4-20260815.png",
+  "M1": {
+   "passa": true,
+   "razao": 1.336,
+   "erro_pct": -1.07,
+   "cume_topo_med": 225,
+   "poste_topo_med": 316,
+   "gradiente_poste": 30.3
+  },
+  "M2": {
+   "passa": true,
+   "desvio_px": 0,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    222,
+    647
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 1.91
+  }
+ },
+ {
+  "folha": "P4-20260816.png",
+  "M1": {
+   "passa": true,
+   "razao": 1.337,
+   "erro_pct": -0.98,
+   "cume_topo_med": 222,
+   "poste_topo_med": 314,
+   "gradiente_poste": 46.8
+  },
+  "M2": {
+   "passa": true,
+   "desvio_px": 6,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    222,
+    641
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 2.32
+  }
+ },
+ {
+  "folha": "P4-20260817.png",
+  "M1": {
+   "passa": true,
+   "razao": 1.355,
+   "erro_pct": 0.39,
+   "cume_topo_med": 221,
+   "poste_topo_med": 317,
+   "gradiente_poste": 64.8
+  },
+  "M2": {
+   "passa": true,
+   "desvio_px": 1,
+   "declarado": [
+    222,
+    647
+   ],
+   "medido": [
+    222,
+    646
+   ]
+  },
+  "M3": {
+   "passa": true,
+   "mediana_px": 1.91
+  }
+ }
+]
