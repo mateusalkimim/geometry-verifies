@@ -1,3 +1,6 @@
+<!-- idioma: linha gerada por i18n.py -->
+*[Read this in English](README.en.md)*
+
 # geometry-verifies
 
 *3D disposes, diffusion paints, geometry verifies — a matte painting pipeline

@@ -1,0 +1,120 @@
+{
+ "atualizado_em": "2026-08-27 14:36:09",
+ "blocos": {
+  "0a5c82562c": {
+   "en": "# Installation",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "# Instalação",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "26299bf195": {
+   "en": "## Long Process Logging",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## Registro de processos longos",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "3509e12b22": {
+   "en": "## 2. Paint Local (SDXL + ControlNet Depth) — GPU ~8 GB+",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## 2. Pintar local (SDXL + ControlNet depth) — GPU ~8 GB+",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "52be1cff4e": {
+   "en": "pip install modal\nmodal token new\nmodal secret create huggingface --from-dotenv <.env file outside the repo, with HF_TOKEN=...>\nmodal deploy pintores/app_flux2_depth_modal.py\npython3 pintores/rodar_prototipos.py      # the P1–P3 staircase\npython3 pintores/rodar_p4.py              # the combined recipe\npython3 pintores/rodar_p4_crepusculo.py   # the second light\nmodal app stop mesa-fronteira-flux2 --yes # descend when done (costly!)",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "pip install modal\nmodal token new\nmodal secret create huggingface --from-dotenv <arquivo .env fora do repo com HF_TOKEN=...>\nmodal deploy pintores/app_flux2_depth_modal.py\npython3 pintores/rodar_prototipos.py      # a escada P1–P3\npython3 pintores/rodar_p4.py              # a receita combinada\npython3 pintores/rodar_p4_crepusculo.py   # a segunda luz\nmodal app stop mesa-fronteira-flux2 --yes # descer ao terminar (custo!)",
+   "qa": "ok",
+   "reparo": "cerca de fechamento devolvida pelo modelo, removida",
+   "tipo": "cerca"
+  },
+  "5b232d8c69": {
+   "en": "## 1. Just Measure (the Ruler) — Any Machine",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## 1. Só medir (a régua) — qualquer máquina",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "6498a066d7": {
+   "en": "The painters open \"jobs\" via `pintores/registro.py`: by default, it's daily in  \nstdout; export `DELFOS_JOBS=<your jobs.py>` to plug in a custom governor  \n(contract: `open_job/advance/close` — close ALWAYS, even on error).",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "Os pintores abrem \"jobs\" via `pintores/registro.py`: por padrão é diário no\nstdout; exporte `DELFOS_JOBS=<seu jobs.py>` para plugar um governador próprio\n(contrato: `abrir_job/avancar/fechar` — fechar SEMPRE, inclusive em erro).\n",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "65f45252a2": {
+   "en": "Three levels, from lightest to heaviest — each one works without the next.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "Três níveis, do mais leve ao mais pesado — cada um funciona sem o seguinte.",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "7606071628": {
+   "en": "1. Install the [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and launch on port 8188;  \n2. Download `sd_xl_base_1.0.safetensors` and the  \n   `controlnet-depth-sdxl` from xinsir (Apache-2.0) into the model folders;  \n3. Adjust `COMFY_INPUT` in `pintores/rodar_folha_casa.py` to your ComfyUI's `input/`;  \n4. `python3 pintores/rodar_folha_casa.py` — 3 fixed seeds, and the ruler runs next (level 1).",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "1. instale o [ComfyUI](https://github.com/comfyanonymous/ComfyUI) e suba na\n   porta 8188;\n2. baixe `sd_xl_base_1.0.safetensors` e o\n   `controlnet-depth-sdxl` do xinsir (Apache-2.0) para as pastas de modelos;\n3. ajuste `COMFY_INPUT` em `pintores/rodar_folha_casa.py` para o `input/` do\n   seu ComfyUI;\n4. `python3 pintores/rodar_folha_casa.py` — 3 sementes fixas, e a régua se\n   roda em seguida (nível 1).",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "9ca319d378": {
+   "en": "Measures the sheets from `resultados/` against the scene in `cena/`. The battery  \nautocalibrates the camera convention against its own map/alpha and ABORTS if the  \nruler is misaligned (anti-circularity) — if it runs, the measurement is valid.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "Mede as folhas de `resultados/` contra a cena de `cena/`. A bateria\nautocalibra a convenção de câmera contra o próprio mapa/alpha e ABORTA se a\nrégua estiver desalinhada (anti-circularidade) — se ela rodar, a medida vale.",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "b667d8b4ea": {
+   "en": "## Regenerate the Scene (Optional) — Blender 4.x",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## Regerar a cena (opcional) — Blender 4.x",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "b863b119a0": {
+   "en": "Paid failures of the bench (deploy freezes secret, gateway cuts at ~150 s →  \nalways `.remote()`, requirements that break) are documented in  \n`pharo/dominio-bancada-modal.md` — read before the first launch.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "As falhas pagas da bancada (deploy congela secret, gateway corta em ~150 s →\nsempre `.remote()`, requirements que quebram) estão documentadas em\n`pharo/dominio-bancada-modal.md` — leia antes da primeira subida.",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "d326b9ba25": {
+   "en": "The FLUX.2-dev is **gated** on Hugging Face (accept the terms on your account) and the license is proprietary to BFL — read before. Cost: H100 per second (~50 s boot with Volume hot; ~100–180 s per page 1216×832 in 50 steps).",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "O FLUX.2-dev é **gated** na Hugging Face (aceite os termos na sua conta) e a\nlicença é própria da BFL — leia antes. Custo: H100 por segundo (~50 s de boot\ncom Volume quente; ~100–180 s por folha 1216×832 em 50 passos).",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "e87aad0c60": {
+   "en": "`scene/scene_page_house.py` runs inside Blender (Scripting → Run) and regenerates proxy, z-buffer, alpha, and `house-geometry.json` next to the script. The committed inputs are exactly those of this scene.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "`cena/cena_folha_casa.py` roda dentro do Blender (Scripting → Run) e regera\nproxy, z-buffer, alpha e `casa-geometria.json` ao lado do script. Os insumos\ncommitados são exatamente os desta cena.",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "ef1f01e4a1": {
+   "en": "## 3. Painting on the Border (FLUX.2-dev + Fun-Union) — Modal, H100",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## 3. Pintar na fronteira (FLUX.2-dev + Fun-Union) — Modal, H100",
+   "qa": "ok",
+   "tipo": "md"
+  }
+ },
+ "fatia": "INSTALACAO",
+ "idioma": "en-US"
+}

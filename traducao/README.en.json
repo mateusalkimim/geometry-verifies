@@ -1,0 +1,126 @@
+{
+ "atualizado_em": "2026-08-27 14:36:09",
+ "blocos": {
+  "2070fc1e0e": {
+   "en": "## Quick Start",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## Início rápido",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "323618c2c0": {
+   "en": "The battery prints M1–M5 per sheet: ratio of heights (eq. 9, ≤2% error),  \nwidth on the reference line (≤12 px), silhouette (median ≤4 px), black of  \ntwilight (p1 ≥ 8) and corner ghost. The installation details and the  \npainting paths (SDXL local via ComfyUI; FLUX.2 on H100 via Modal) are in  \n[`docs/INSTALACAO.md`](docs/INSTALACAO.md).",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "A bateria imprime M1–M5 por folha: razão de alturas (eq. 9, ≤2% de erro),\nlargura na linha de referência (≤12 px), silhueta (mediana ≤4 px), preto do\ncrepúsculo (p1 ≥ 8) e fantasma de canto. Os detalhes de instalação e as vias\nde pintura (SDXL local via ComfyUI; FLUX.2 em H100 via Modal) estão em\n[`docs/INSTALACAO.md`](docs/INSTALACAO.md).",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "3ccb816c69": {
+   "en": "**3D arranges, diffusion paints, geometry verifies.** This repository is the  \nAI-assisted matte painting method of an original production (the series  \n**Guariba**): a lightweight scene in Blender arranges the element and exports  \ndepth, alpha, and the exact camera; a diffusion model paints the element  \nconditioned by that map; and **single-view metrology** (Criminisi, Reid &  \nZisserman, 2000) measures the painted sheet against the geometric truth —  \nwithout knowing the focal length. The painting is free; the geometry is  \nbound. Pre-registered ruler, blind judgment, receipt of each claim. **AI is  \nbackdrop and reference; final plan is painted — boundary declared.**",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "**O 3D dispõe, a difusão pinta, a geometria confere.** Este repositório é o\nmétodo de matte painting assistido por IA de uma produção autoral (a série\n**Guariba**): uma cena leve no Blender dispõe o elemento e exporta\nprofundidade, alpha e a câmera exata; um modelo de difusão pinta o elemento\ncondicionado por esse mapa; e a **metrologia de vista única** (Criminisi,\nReid & Zisserman, 2000) mede a folha pintada contra a verdade geométrica —\nsem conhecer a distância focal. A pintura fica livre; a geometria fica presa.\nRégua pré-registrada, julgamento cego, recibo de cada afirmação. **IA é\nbastidor e referência; plano final é pintado — fronteira declarada.**",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "492ae75658": {
+   "en": "| folder | content |  \n|---|---|  \n| `metrologia/` | the ruler: `metrologia_vista_unica.py` (eq. 9) and `bateria_m1_m5.py` (M1–M5 with anti-circular autocalibration against the map itself) |  \n| `cena/` | the 3D that arranges: Blender scene script + the 4 exact inputs (proxy, z-buffer, alpha, camera geometry) |  \n| `pintores/` | the ones who paint: local SDXL+ControlNet (ComfyUI) and the boundary bench FLUX.2+Fun-Union (Modal, H100) with surgery P1–P4 |  \n| `resultados/` | the measured sheets (SDXL and P1–P4 in the two lights), JSONs of the ruler and manifesto with sha256 |  \n| `pharo/` | the research notebook: pre-registration of the table, result, the surgery of obedience, and the bench — with glossary in `pharo/LEIA-ME.md` |",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "| pasta | conteúdo |\n|---|---|\n| `metrologia/` | a régua: `metrologia_vista_unica.py` (eq. 9) e `bateria_m1_m5.py` (M1–M5 com autocalibração anti-circular contra o próprio mapa) |\n| `cena/` | o 3D que dispõe: script Blender da cena + os 4 insumos exatos (proxy, z-buffer, alpha, geometria da câmera) |\n| `pintores/` | os que pintam: SDXL+ControlNet local (ComfyUI) e a bancada de fronteira FLUX.2+Fun-Union (Modal, H100) com a cirurgia P1–P4 |\n| `resultados/` | as folhas medidas (SDXL e P1–P4 nas duas luzes), JSONs da régua e manifesto com sha256 |\n| `pharo/` | o caderno de pesquisa: pré-registro da mesa, resultado, a cirurgia da obediência e a bancada — com glossário em `pharo/LEIA-ME.md` |",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "8402270e88": {
+   "en": "---  \nCode under [MIT](LICENSE) · images and documents under [CC BY 4.0](LICENSE-MEDIA) ·  \nauthor: [Mateus Alkimim](https://github.com/mateusalkimim)",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "---\nCódigo sob [MIT](LICENSE) · imagens e documentos sob [CC BY 4.0](LICENSE-MEDIA) ·\nautor: [Mateus Alkimim](https://github.com/mateusalkimim)\n",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "8c1e1c0543": {
+   "en": "# geometry-verifies",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "# geometry-verifies",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "8cf8c3120d": {
+   "en": "## State and open tables",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## Estado e mesas abertas",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "9f6cd7fc78": {
+   "en": "- **No secrets in the tree**: tokens live in `.env` outside the repo (Modal  \n  Secrets/environment variables); the code documents the path, never the value;  \n- **Licenses granted at source**: SDXL (CreativeML Open RAIL++-M),  \n  ControlNet xinsir (Apache-2.0), FLUX.2-dev (gated, proprietary license from  \n  BFL — read before use), Fun-Controlnet-Union (alibaba-pai), Depth Anything  \n  V2 **Small** (Apache-2.0; the Large is CC-BY-NC and was vetoed for that);  \n- **Nothing here was trained with third-party data**: the repository is method  \n  and measurement, not a model;  \n- the images of `cena/` and `resultados/` are the author's work (scene-test  \n  scenario of production), licensed under CC BY 4.0 — see `LICENSE-MEDIA`.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "- **Sem segredo na árvore**: tokens vivem em `.env` fora do repo (Modal\n  Secrets/variáveis de ambiente); o código documenta o caminho, nunca o valor;\n- **Licenças conferidas na fonte**: SDXL (CreativeML Open RAIL++-M),\n  ControlNet xinsir (Apache-2.0), FLUX.2-dev (gated, licença própria da BFL —\n  leia antes de usar), Fun-Controlnet-Union (alibaba-pai), Depth Anything\n  V2 **Small** (Apache-2.0; o Large é CC-BY-NC e foi vetado por isso);\n- **Nada aqui foi treinado com dado de terceiros**: o repositório é método e\n  medição, não modelo;\n- as imagens de `cena/` e `resultados/` são obra do autor (cena-cenário de\n  teste da produção), licenciadas em CC BY 4.0 — ver `LICENSE-MEDIA`.",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "a38576e5b9": {
+   "en": null,
+   "ja_en": true,
+   "orfao": false,
+   "pt": "*3D disposes, diffusion paints, geometry verifies — a matte painting pipeline\nwhere every AI-painted image must pass a pre-registered geometric ruler before\nit counts. Full docs in Portuguese below; the research diary lives in\n[`pharo/`](pharo/).*",
+   "tipo": "md"
+  },
+  "addff2bc20": {
+   "en": "- complete ruler (M1–M5) passing 3/3 on both lights with recipe P4  \n  (depth estimated + grafting of the fine element + reference) — receipts in  \n  `resultados/`;  \n- open: the aesthetic cost of the reference image (the flatness of the proxy in  \n  the brushstroke) awaits blind judgment; fine-tuning of ControlNet with own  \n  synthetic pairs (P6) is the deep surgery not yet initiated;  \n- this repo is a published excerpt from a larger notebook and continues to live  \n  alongside the production.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "- régua completa (M1–M5) passando 3/3 nas duas luzes com a receita P4\n  (depth estimado + enxerto do elemento fino + referência) — recibos em\n  `resultados/`;\n- aberto: o custo estético da imagem de referência (o chapado do proxy na\n  pincelada) aguarda julgamento cego; fine-tune do ControlNet com pares\n  sintéticos próprios (P6) é a cirurgia profunda não iniciada;\n- este repo é um recorte publicado de um caderno maior e segue vivo junto da\n  produção.",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "b632a4eeac": {
+   "en": "git clone https://github.com/mateusalkimim/geometry-verifies  \ncd geometry-verifies  \n\n# measure the included leaves against the included scene (only numpy/PIL/OpenCV):  \npython3 metrologia/bateria_m1_m5.py",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "git clone https://github.com/mateusalkimim/geometry-verifies\ncd geometry-verifies\n\n# medir as folhas incluídas contra a cena incluída (só numpy/PIL/OpenCV):\npython3 metrologia/bateria_m1_m5.py",
+   "qa": "ok",
+   "tipo": "cerca"
+  },
+  "d67560d038": {
+   "en": "## Provenance and guarantees",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## Proveniência e garantias",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "e21ac519c1": {
+   "en": "## What's here",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## O que tem aqui",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "f1d6da28ce": {
+   "en": "## The place in the larger cycle",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "## O lugar no ciclo maior",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "f2671dd3ed": {
+   "en": "This method is used in a production where **nothing generative renders the final plane**. The flow covered here is that of *storyboard/concept*: the sheet that passes through the ruler becomes a composition reference — the film continues to be closed by hand. The complete story (why the synthetic z-buffer fails in a ControlNet of boundary, and the surgery that makes it obey) is in `pharo/dominio-cirurgia-obediencia.md`.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "Este método serve a uma produção onde **nada generativo renderiza plano\nfinal**. O fluxo aqui coberto é o de *storyboard/conceito*: a folha que passa\nna régua vira referência de composição — o filme continua sendo fechado à mão.\nA história completa (por que o z-buffer sintético falha num ControlNet de\nfronteira, e a cirurgia que o faz obedecer) está em\n`pharo/dominio-cirurgia-obediencia.md`.",
+   "qa": "ok",
+   "tipo": "md"
+  }
+ },
+ "fatia": "README",
+ "idioma": "en-US"
+}

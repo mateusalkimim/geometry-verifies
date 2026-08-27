@@ -1,3 +1,6 @@
+<!-- idioma: linha gerada por i18n.py -->
+*[Read this in English](INSTALACAO.en.md)*
+
 # Instalação
 
 Três níveis, do mais leve ao mais pesado — cada um funciona sem o seguinte.
