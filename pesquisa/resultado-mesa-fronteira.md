@@ -81,7 +81,7 @@ retrato mudou de natureza: **a fronteira é o melhor PINTOR da bancada**
 (borda, luz, legibilidade, valor — 4 critérios de pintura, 4 vitórias) e **o
 SDXL é o melhor ARQUITETO** (geometria a 0,6%, e só ele) — que, aos olhos
 cegos do autor, **não lê como Pantanal** (0/6 no J3, o dado mais duro da
-noite contra o campeão da casa). A arquitetura do OPERADOR — o 3D dispõe, a
+noite contra o campeão da casa). A arquitetura do AUTOR — o 3D dispõe, a
 difusão pinta, a geometria confere — é exatamente o casamento que estes dois
 recibos pedem; nenhum dos dois pintores sozinho é a prancheta.
 
