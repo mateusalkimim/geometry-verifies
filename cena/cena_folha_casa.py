@@ -11,7 +11,7 @@ isolada na prancheta. O modelo NUNCA compõe o quadro; ele pinta uma peça.
 CADA ESCOLHA AQUI VEM DE COISA MEDIDA. Em ordem:
 
 1. ELEMENTO APOIADO COM VERTICAL CLARA. É a única classe com verificador
-   validado (`pharo/dominio-horizonte-fuga-e-escala.md` §10.4). Canoa não serve
+   validado (`pesquisa/dominio-horizonte-fuga-e-escala.md` §10.4). Canoa não serve
    — casco deitado, sem vertical, e a profundidade é cega a ele (rodada 5).
    Mata não serve — auto-similar, e a pergunta não tem enunciado.
 

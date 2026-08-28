@@ -46,7 +46,7 @@ sessão ao vivo; artefatos em `pipeline/mesa-fronteira/`.*
 | F6 | risco de vazamento | — | token no argv aparece em erro/ps | `--from-dotenv`; filtrar `hf_...` de qualquer saída |
 | F7 | request cancelado ~121 s, retry queimando GPU | `Received a cancellation signal` | **gateway web do Modal corta síncrono em ~150 s**; folha leva 100–180 s | `@modal.method()` + `.remote()` via SDK — sem teto |
 | F8 | `ModuleNotFoundError: librosa` | worker morre no import | VideoX-Fun importa áudio até em t2i; eu tinha enxugado o requirements | requirements COMPLETO do repo deles (librosa, tomesd, datasets, onnxruntime) |
-| F9 | job Delfos órfão | quadro mentindo | console reiniciado com job aberto | fechar com `resultado: erro` ANTES de reiniciar |
+| F9 | job registrado órfão | quadro mentindo | console reiniciado com job aberto | fechar com `resultado: erro` ANTES de reiniciar |
 
 ## Números de referência (H100, medidos)
 
@@ -67,8 +67,8 @@ sessão ao vivo; artefatos em `pipeline/mesa-fronteira/`.*
    --force` **e redeploy**);
 3. `modal deploy <CAMINHO ABSOLUTO>` (F3);
 4. inferência SEMPRE por `.remote()` (F7); console local roda com
-   `~/venvs/fal/bin/python` (tem o pacote `modal`);
-5. processo longo = job no Delfos aberto pelo caminho que roda, fechado
+   `o ambiente virtual do projeto` (tem o pacote `modal`);
+5. processo longo = job registrado aberto pelo caminho que roda, fechado
    inclusive em erro (F9);
 6. ao encerrar: `modal app stop <app> --yes` (sem `--yes` trava pedindo
    confirmação interativa). Volume fica — é o que torna a próxima subida

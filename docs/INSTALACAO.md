@@ -47,7 +47,7 @@ modal app stop mesa-fronteira-flux2 --yes # descer ao terminar (custo!)
 
 As falhas pagas da bancada (deploy congela secret, gateway corta em ~150 s →
 sempre `.remote()`, requirements que quebram) estão documentadas em
-`pharo/dominio-bancada-modal.md` — leia antes da primeira subida.
+`pesquisa/dominio-bancada-modal.md` — leia antes da primeira subida.
 
 ## Regerar a cena (opcional) — Blender 4.x
 

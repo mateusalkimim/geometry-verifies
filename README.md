@@ -7,7 +7,7 @@
 *3D disposes, diffusion paints, geometry verifies — a matte painting pipeline
 where every AI-painted image must pass a pre-registered geometric ruler before
 it counts. Full docs in Portuguese below; the research diary lives in
-[`pharo/`](pharo/).*
+[`pesquisa/`](pesquisa/).*
 
 **3D arranges, diffusion paints, geometry verifies.** This repository is the  
 AI-assisted matte painting method of an original production (the series  
@@ -43,11 +43,11 @@ painting paths (SDXL local via ComfyUI; FLUX.2 on H100 via Modal) are in
 | `cena/` | the 3D that arranges: Blender scene script + the 4 exact inputs (proxy, z-buffer, alpha, camera geometry) |  
 | `pintores/` | the ones who paint: local SDXL+ControlNet (ComfyUI) and the boundary bench FLUX.2+Fun-Union (Modal, H100) with surgery P1–P4 |  
 | `resultados/` | the measured sheets (SDXL and P1–P4 in the two lights), JSONs of the ruler and manifesto with sha256 |  
-| `pharo/` | the research notebook: pre-registration of the table, result, the surgery of obedience, and the bench — with glossary in `pharo/LEIA-ME.md` |
+| `pesquisa/` | the research notebook: pre-registration of the table, result, the surgery of obedience, and the bench — with glossary in `pesquisa/LEIA-ME.md` |
 
 ## The place in the larger cycle
 
-This method is used in a production where **nothing generative renders the final plane**. The flow covered here is that of *storyboard/concept*: the sheet that passes through the ruler becomes a composition reference — the film continues to be closed by hand. The complete story (why the synthetic z-buffer fails in a ControlNet of boundary, and the surgery that makes it obey) is in `pharo/dominio-cirurgia-obediencia.md`.
+This method is used in a production where **nothing generative renders the final plane**. The flow covered here is that of *storyboard/concept*: the sheet that passes through the ruler becomes a composition reference — the film continues to be closed by hand. The complete story (why the synthetic z-buffer fails in a ControlNet of boundary, and the surgery that makes it obey) is in `pesquisa/dominio-cirurgia-obediencia.md`.
 
 ## Provenance and guarantees
 

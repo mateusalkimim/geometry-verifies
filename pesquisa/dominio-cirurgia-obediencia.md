@@ -1,6 +1,6 @@
 # Domínio: a cirurgia da obediência — alimentar a fronteira com o NOSSO palco
 
-*Aberto 2026-08-16, por decisão do operador após a mesa da fronteira: "o que
+*Aberto 2026-08-16, por decisão do autor após a mesa da fronteira: "o que
 ele não pegou foi porque precisa ser feita uma cirurgia, e uma adaptação dos
 nossos recursos para alimentar o FLUX". Alvo declarado: **replicar o
 resultado da primeira folha (a do post do LinkedIn) num modelo de fronteira**
@@ -48,7 +48,7 @@ Regra de rodada: 1 variável por vez, 3 sementes, régua M1–M3 da bateria
 (`mesa-fronteira/bateria_m1_m5.py`, já calibrada no padrão A), régua ANTES.
 P1/P2/P3 são combináveis depois de medidos isolados.
 
-## "Melhorar as referências" (a ordem do operador)
+## "Melhorar as referências" (a ordem do autor)
 
 - prompt: o card do Union pede **prompt detalhado** para estabilidade — o da
   rodada era o selado (curto). Fora do selo da mesa (que já fechou), o
@@ -112,13 +112,13 @@ console; mesmos insumos compostos; job `guariba-cirurgia-p4-crepusculo`):
 o SDXL r2 falhara com p1=3). **D1 a olho: 3/3 com o poente à ESQUERDA** — o
 indicador mecânico mede a metade de cima do céu e o clarão fica baixo, por
 isso marcou "dir" na 0816; a leitura fica registrada como indicador, não
-portão. Cantos do crepúsculo quase pretos mas SEM traço de assinatura (olho +
+verificação. Cantos do crepúsculo quase pretos mas SEM traço de assinatura (olho +
 heurística). Custo: 3 folhas (210/142/137 s) ≈ US$ 1; app descido ao final
 (0 deployed), Volume fica. `resultado-p4-crepusculo.json` ao lado das folhas.
 
 **A receita P4 está FECHADA nas duas luzes do selo.** Aberto:
 - o custo estético da referência (o chapado do proxy contamina a pincelada —
-  J-mesa quando o operador quiser julgar borda do P4 vs SDXL).
+  J-mesa quando o autor quiser julgar borda do P4 vs SDXL).
 
 ## Ligações
 

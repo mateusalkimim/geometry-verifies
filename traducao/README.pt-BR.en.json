@@ -1,11 +1,19 @@
 {
- "atualizado_em": "2026-08-27 14:36:09",
+ "atualizado_em": "2026-08-28 11:40:34",
  "blocos": {
   "2070fc1e0e": {
    "en": "## Quick Start",
    "modelo": "phi-4",
    "orfao": false,
    "pt": "## Início rápido",
+   "qa": "ok",
+   "tipo": "md"
+  },
+  "2ddd7031c0": {
+   "en": "This method is used in a production where **nothing generative renders the final plane**. The flow covered here is that of *storyboard/concept*: the sheet that passes through the ruler becomes a composition reference — the film continues to be closed by hand. The complete story (why the synthetic z-buffer fails in a ControlNet of boundary, and the surgery that makes it obey) is in `pesquisa/dominio-cirurgia-obediencia.md`.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "Este método serve a uma produção onde **nada generativo renderiza plano\nfinal**. O fluxo aqui coberto é o de *storyboard/conceito*: a folha que passa\nna régua vira referência de composição — o filme continua sendo fechado à mão.\nA história completa (por que o z-buffer sintético falha num ControlNet de\nfronteira, e a cirurgia que o faz obedecer) está em\n`pesquisa/dominio-cirurgia-obediencia.md`.",
    "qa": "ok",
    "tipo": "md"
   },
@@ -25,11 +33,11 @@
    "qa": "ok",
    "tipo": "md"
   },
-  "492ae75658": {
-   "en": "| folder | content |  \n|---|---|  \n| `metrologia/` | the ruler: `metrologia_vista_unica.py` (eq. 9) and `bateria_m1_m5.py` (M1–M5 with anti-circular autocalibration against the map itself) |  \n| `cena/` | the 3D that arranges: Blender scene script + the 4 exact inputs (proxy, z-buffer, alpha, camera geometry) |  \n| `pintores/` | the ones who paint: local SDXL+ControlNet (ComfyUI) and the boundary bench FLUX.2+Fun-Union (Modal, H100) with surgery P1–P4 |  \n| `resultados/` | the measured sheets (SDXL and P1–P4 in the two lights), JSONs of the ruler and manifesto with sha256 |  \n| `pharo/` | the research notebook: pre-registration of the table, result, the surgery of obedience, and the bench — with glossary in `pharo/LEIA-ME.md` |",
+  "7ac6f588ad": {
+   "en": "| folder | content |  \n|---|---|  \n| `metrologia/` | the ruler: `metrologia_vista_unica.py` (eq. 9) and `bateria_m1_m5.py` (M1–M5 with anti-circular autocalibration against the map itself) |  \n| `cena/` | the 3D that arranges: Blender scene script + the 4 exact inputs (proxy, z-buffer, alpha, camera geometry) |  \n| `pintores/` | the ones who paint: local SDXL+ControlNet (ComfyUI) and the boundary bench FLUX.2+Fun-Union (Modal, H100) with surgery P1–P4 |  \n| `resultados/` | the measured sheets (SDXL and P1–P4 in the two lights), JSONs of the ruler and manifesto with sha256 |  \n| `pesquisa/` | the research notebook: pre-registration of the table, result, the surgery of obedience, and the bench — with glossary in `pesquisa/LEIA-ME.md` |",
    "modelo": "phi-4",
    "orfao": false,
-   "pt": "| pasta | conteúdo |\n|---|---|\n| `metrologia/` | a régua: `metrologia_vista_unica.py` (eq. 9) e `bateria_m1_m5.py` (M1–M5 com autocalibração anti-circular contra o próprio mapa) |\n| `cena/` | o 3D que dispõe: script Blender da cena + os 4 insumos exatos (proxy, z-buffer, alpha, geometria da câmera) |\n| `pintores/` | os que pintam: SDXL+ControlNet local (ComfyUI) e a bancada de fronteira FLUX.2+Fun-Union (Modal, H100) com a cirurgia P1–P4 |\n| `resultados/` | as folhas medidas (SDXL e P1–P4 nas duas luzes), JSONs da régua e manifesto com sha256 |\n| `pharo/` | o caderno de pesquisa: pré-registro da mesa, resultado, a cirurgia da obediência e a bancada — com glossário em `pharo/LEIA-ME.md` |",
+   "pt": "| pasta | conteúdo |\n|---|---|\n| `metrologia/` | a régua: `metrologia_vista_unica.py` (eq. 9) e `bateria_m1_m5.py` (M1–M5 com autocalibração anti-circular contra o próprio mapa) |\n| `cena/` | o 3D que dispõe: script Blender da cena + os 4 insumos exatos (proxy, z-buffer, alpha, geometria da câmera) |\n| `pintores/` | os que pintam: SDXL+ControlNet local (ComfyUI) e a bancada de fronteira FLUX.2+Fun-Union (Modal, H100) com a cirurgia P1–P4 |\n| `resultados/` | as folhas medidas (SDXL e P1–P4 nas duas luzes), JSONs da régua e manifesto com sha256 |\n| `pesquisa/` | o caderno de pesquisa: pré-registro da mesa, resultado, a cirurgia da obediência e a bancada — com glossário em `pesquisa/LEIA-ME.md` |",
    "qa": "ok",
    "tipo": "md"
   },
@@ -69,7 +77,7 @@
    "en": null,
    "ja_en": true,
    "orfao": false,
-   "pt": "*3D disposes, diffusion paints, geometry verifies — a matte painting pipeline\nwhere every AI-painted image must pass a pre-registered geometric ruler before\nit counts. Full docs in Portuguese below; the research diary lives in\n[`pharo/`](pharo/).*",
+   "pt": "*3D disposes, diffusion paints, geometry verifies — a matte painting pipeline\nwhere every AI-painted image must pass a pre-registered geometric ruler before\nit counts. Full docs in Portuguese below; the research diary lives in\n[`pesquisa/`](pesquisa/).*",
    "tipo": "md"
   },
   "addff2bc20": {
@@ -109,14 +117,6 @@
    "modelo": "phi-4",
    "orfao": false,
    "pt": "## O lugar no ciclo maior",
-   "qa": "ok",
-   "tipo": "md"
-  },
-  "f2671dd3ed": {
-   "en": "This method is used in a production where **nothing generative renders the final plane**. The flow covered here is that of *storyboard/concept*: the sheet that passes through the ruler becomes a composition reference — the film continues to be closed by hand. The complete story (why the synthetic z-buffer fails in a ControlNet of boundary, and the surgery that makes it obey) is in `pharo/dominio-cirurgia-obediencia.md`.",
-   "modelo": "phi-4",
-   "orfao": false,
-   "pt": "Este método serve a uma produção onde **nada generativo renderiza plano\nfinal**. O fluxo aqui coberto é o de *storyboard/conceito*: a folha que passa\nna régua vira referência de composição — o filme continua sendo fechado à mão.\nA história completa (por que o z-buffer sintético falha num ControlNet de\nfronteira, e a cirurgia que o faz obedecer) está em\n`pharo/dominio-cirurgia-obediencia.md`.",
    "qa": "ok",
    "tipo": "md"
   }

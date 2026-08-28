@@ -36,7 +36,7 @@ respeitado).
 
 ## As 5 apostas do assistente (§7 do selo), conferidas
 
-1. **D1/J2 (sol à esquerda ≥2/3)** — NÃO AFERIDA: mesa cega não montada
+1. **D1/J2 (sol à esquerda ≥2/3)** — NÃO AFERIDA: comparação cega não montada
    (nenhuma folha B qualificada; julgar borda/luz de folha que não segura
    geometria repetiria o vício "folha sem restrição sempre parece melhor");
 2. **M1 nos dois braços ≤1%** — **PERDIDA**: A passa (−0,6/−0,7%), B 0/6;
@@ -54,14 +54,14 @@ respeitado).
   preço foi a obediência geométrica, que era inegociável;
 - o SDXL + xinsir **permanece o campeão da prancheta** — agora com recibo
   contra a fronteira, não por falta de adversário;
-- a mesa cega na Têmis **não se monta** por falta de matéria qualificada
+- a comparação cega cega **não se monta** por falta de matéria qualificada
   (registrado como parte do resultado, não como omissão).
 
 ## O julgamento cego (emenda de 2026-08-16, pós-veredito)
 
-O operador reafirmou a mesa após a ressalva de folhas mecanicamente
+O autor reafirmou a mesa após a ressalva de folhas mecanicamente
 desqualificadas — e o julgamento dele derrubou a minha leitura. Duas mesas
-na Têmis (um papel por mesa), lacradas, `contem_obra`; vereditos salvos em
+cega (um papel por mesa), lacradas, `contem_obra`; vereditos salvos em
 138 s (J1) e 175 s (J2+J3); revelação mecânica pós-veredito:
 
 | critério cego | SDXL (A) | FLUX.2 (B) |
@@ -80,7 +80,7 @@ segue NÃO — a obediência geométrica era inegociável e perdeu-se. Mas o
 retrato mudou de natureza: **a fronteira é o melhor PINTOR da bancada**
 (borda, luz, legibilidade, valor — 4 critérios de pintura, 4 vitórias) e **o
 SDXL é o melhor ARQUITETO** (geometria a 0,6%, e só ele) — que, aos olhos
-cegos do operador, **não lê como Pantanal** (0/6 no J3, o dado mais duro da
+cegos do autor, **não lê como Pantanal** (0/6 no J3, o dado mais duro da
 noite contra o campeão da casa). A arquitetura do OPERADOR — o 3D dispõe, a
 difusão pinta, a geometria confere — é exatamente o casamento que estes dois
 recibos pedem; nenhum dos dois pintores sozinho é a prancheta.

@@ -1,6 +1,6 @@
 # Pré-registro — mesa da fronteira: um modelo novo conserta o que o SDXL erra?
 
-*Aberto 2026-08-16, por ordem do operador ("vamos fazer o pré-registro da mesa").
+*Aberto 2026-08-16, por ordem do autor ("vamos fazer o pré-registro da mesa").
 SELADO antes de qualquer folha dos braços. Emendas só datadas, com o texto
 original intacto. Apostas do assistente carimbadas na §7, antes da primeira
 geração.*
@@ -48,7 +48,7 @@ com o modelo mais velho da casa ("o ganho não veio do modelo" — post público
 | **A** | SDXL 1.0 + ControlNet depth (xinsir), 28p, cfg 6,5, força 0,8 | local | depth, força 0,8 | R$ 0 |
 | **B** | FLUX.2-dev com condicionamento de profundidade | **fal.ai** | rota de depth NATIVA a confirmar no cardápio ANTES da rodada | ~US$ 0,03–0,05/folha |
 
-**Portão do braço B**: se a fal não oferecer rota de profundidade real para o
+**Verificação do braço B**: se a fal não oferecer rota de profundidade real para o
 FLUX.2-dev (depth control/tool, não img2img), **o braço cai e a mesa é adiada**
 — não improvisada com via desigual. A desigualdade de condicionamento foi
 exatamente o que a rodada exploratória do Chroma mediu como fatal.
@@ -57,16 +57,16 @@ exatamente o que a rodada exploratória do Chroma mediu como fatal.
 > operador):* **"rota de profundidade" significa que o endpoint ACEITA O NOSSO
 > mapa** — o `casa-profundidade.png` do Blender, injetado como imagem de
 > controle. Nunca estimativa de profundidade da fal: o mapa da casa é exato por
-> construção e é a vantagem estrutural da pipeline. O que o portão confirma é
+> construção e é a vantagem estrutural da pipeline. O que a verificação confirma é
 > só a existência do canal de injeção. E fica registrado o horizonte do braço:
 > em rodada futura, o **LoRA do traço do autor** também entra injetado no
 > endpoint (a fal suporta LoRA custom na família FLUX) — com a ressalva de
 > membrana marcada: subir o LoRA é subir um derivado das páginas da mão do
 > autor; o termo da fal cobre input como serviço, mas a decisão de deixar esse
-> derivado atravessar a membrana é do operador, no dia em que chegar.
+> derivado atravessar a membrana é do autor, no dia em que chegar.
 
-> *Emenda pós-sondagem, 2026-08-15 (portão executado por ordem do operador;
-> registro autorizado: "Pode registrar os dois"):* **o portão FALHOU e a mesa
+> *Emenda pós-sondagem, 2026-08-15 (verificação executado por ordem do autor;
+> registro autorizado: "Pode registrar os dois"):* **a verificação FALHOU e a mesa
 > está ADIADA.** Sondado por três vias independentes, todas concordes e a custo
 > zero: (1) OpenAPI público da fal; (2) catálogo autenticado completo
 > (`api.fal.ai/v1/models`, 1450 endpoints — 49 da família FLUX.2, nenhum com
@@ -84,11 +84,11 @@ exatamente o que a rodada exploratória do Chroma mediu como fatal.
 > destilação (granito; máx. 8 passos confirma o turbo). O encaixe dele é o
 > departamento de CONCEITO do mapa de produção ("LoRA da mão do autor + depth
 > local") — mesma família da LoRA do caderno, via local, sem membrana.
-> Caminhos possíveis adiante, todos decisão do operador por emenda: manter
+> Caminhos possíveis adiante, todos decisão do autor por emenda: manter
 > adiada; trocar o braço B por FLUX.1-dev+depth na fal (canal existe, mas não é
 > fronteira); ou explorar Z-Image ControlNet local fora da mesa.
 
-> *Emenda da via, 2026-08-15 (por decisão do operador: "Vamos mover dossiê →
+> *Emenda da via, 2026-08-15 (por decisão do autor: "Vamos mover dossiê →
 > emenda da via → app"):* **a mesa DESADIA pela via do deploy próprio.** O
 > braço B passa a ser **FLUX.2-dev + FLUX.2-dev-Fun-Controlnet-Union
 > (alibaba-pai) servido por app `fal.App` NOSSO na infra da fal** — worker
@@ -109,14 +109,14 @@ exatamente o que a rodada exploratória do Chroma mediu como fatal.
 > como limite de leitura da mesa, não como via desigual do tipo vetado;
 > (c) **custo** — worker por segundo; teto US$ 10 da rodada inalterado, gasto
 > declarado no resultado. Cliente da rodada: console web local em Python
-> (padrão da casa — Limín/Têmis/Delfos), com job no Delfos aberto por
-> construção; o console é instrumento, não critério — M1–M5 e a mesa na Têmis
+> (padrão adotado aqui — console local/julgamento cego/registro de processos), com job registrado aberto por
+> construção; o console é instrumento, não critério — M1–M5 e a comparação cega
 > ficam exatamente como selados.
 
-> *Adendo à emenda da via, 2026-08-15 (por decisão do operador: "Já mandei o
+> *Adendo à emenda da via, 2026-08-15 (por decisão do autor: "Já mandei o
 > e-mail; porta pro Modal em paralelo"):* o Private Serverless da fal revelou-se
 > **enterprise gated** (formulário de vendas exige e-mail corporativo; pedido de
-> acesso enviado por e-mail pelo operador). A via 1 ganha **hospedeiro paralelo:
+> acesso enviado por e-mail pelo autor). A via 1 ganha **hospedeiro paralelo:
 > Modal**, com termos auditados em 2026-08-15 na mesma régua (recibos em
 > `termos-hospedados/modal-*`): dono do dado é o cliente; licença limitada a
 > prestar o serviço; **cláusula explícita de não-treino** sem consentimento
@@ -160,22 +160,22 @@ das rodadas 1 e 2 (neutro e crepúsculo-Gurney):
 | M4 | preto esmagado (só crepúsculo): percentil 1 e mediana da silhueta | p1 ≥ 8 **e** mediana ≥ 25 | Gurney (*dark but not black*); SDXL falhou com p1=2–3 |
 | M5 | assinatura fantasma: varredura dos 4 cantos (70×300 px, ampliados) | presença = falha | 3/9 folhas SDXL tinham |
 
-### Julgados às CEGAS pelo operador (mesa na Têmis)
+### Julgados às CEGAS pelo autor (comparação cega)
 
 | # | faceta | forma da pergunta (decidível, nunca estética global) |
 |---|---|---|
-| J1 | borda perdida | por PAR anônimo: "qual tratamento de borda está mais próximo das referências da casa (capivara/garça)?" |
+| J1 | borda perdida | por PAR anônimo: "qual tratamento de borda está mais próximo das referências do projeto (capivara/garça)?" |
 | J2 | direção de luz (só crepúsculo) | por folha: "o sol desta folha está à esquerda?" sim/não |
 | J3 | legibilidade | por folha: "isto lê como rancho pantaneiro?" sim/parcial/não |
 
 ## O julgamento
 
-- mesa montada **pela API canônica da Têmis** (`core.montar` +
+- mesa montada **pela API canônica do julgamento cego** (`core.montar` +
   `registrar_mesa`) — nunca JSON à mão; categoria visual; **`contem_obra`**
   (elemento da obra, mesmo sendo bastidor);
 - rótulos aleatórios; **identidade só no gabarito-LACRADO**; nenhum canal desta
   conversa liga rótulo a braço depois de montada;
-- web, fila PENDENTE, avisar o operador — **nunca abrir a UI por ele**;
+- web, fila PENDENTE, avisar o autor — **nunca abrir a UI por ele**;
 - veredito e `tempo_humano_s` registrados como evento. **O julgamento é do
   operador; parecer meu não destrava gabarito.**
 
@@ -207,6 +207,6 @@ das rodadas 1 e 2 (neutro e crepúsculo-Gurney):
 
 ## Registro
 
-Rodada com job no Delfos (braço B: `dono: fal.ai`), log em
+Rodada com job registrado (braço B: `dono: fal.ai`), log em
 `um log local`. Resultado em `resultado-mesa-fronteira.md`, com
 as cinco apostas conferidas item a item e o gasto real declarado em R$.

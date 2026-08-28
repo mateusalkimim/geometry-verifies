@@ -7,7 +7,7 @@
 *3D disposes, diffusion paints, geometry verifies — a matte painting pipeline
 where every AI-painted image must pass a pre-registered geometric ruler before
 it counts. Full docs in Portuguese below; the research diary lives in
-[`pharo/`](pharo/).*
+[`pesquisa/`](pesquisa/).*
 
 **O 3D dispõe, a difusão pinta, a geometria confere.** Este repositório é o
 método de matte painting assistido por IA de uma produção autoral (a série
@@ -43,7 +43,7 @@ de pintura (SDXL local via ComfyUI; FLUX.2 em H100 via Modal) estão em
 | `cena/` | o 3D que dispõe: script Blender da cena + os 4 insumos exatos (proxy, z-buffer, alpha, geometria da câmera) |
 | `pintores/` | os que pintam: SDXL+ControlNet local (ComfyUI) e a bancada de fronteira FLUX.2+Fun-Union (Modal, H100) com a cirurgia P1–P4 |
 | `resultados/` | as folhas medidas (SDXL e P1–P4 nas duas luzes), JSONs da régua e manifesto com sha256 |
-| `pharo/` | o caderno de pesquisa: pré-registro da mesa, resultado, a cirurgia da obediência e a bancada — com glossário em `pharo/LEIA-ME.md` |
+| `pesquisa/` | o caderno de pesquisa: pré-registro da mesa, resultado, a cirurgia da obediência e a bancada — com glossário em `pesquisa/LEIA-ME.md` |
 
 ## O lugar no ciclo maior
 
@@ -52,7 +52,7 @@ final**. O fluxo aqui coberto é o de *storyboard/conceito*: a folha que passa
 na régua vira referência de composição — o filme continua sendo fechado à mão.
 A história completa (por que o z-buffer sintético falha num ControlNet de
 fronteira, e a cirurgia que o faz obedecer) está em
-`pharo/dominio-cirurgia-obediencia.md`.
+`pesquisa/dominio-cirurgia-obediencia.md`.
 
 ## Proveniência e garantias
 

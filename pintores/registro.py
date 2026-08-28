@@ -2,7 +2,7 @@
 """Registro de progresso dos processos longos.
 
 Na casa de origem, todo processo longo abre um job num governador central
-(Delfos) — o operador nunca fica cego ao andamento, e o job FECHA mesmo em
+(registro de processos) — o autor nunca fica cego ao andamento, e o job FECHA mesmo em
 erro. Fora dela, este shim vira diário no stdout com o mesmo contrato.
 Para plugar o seu: exporte DELFOS_JOBS=<caminho de um jobs.py com
 abrir_job/avancar/fechar>.

@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-08-27 14:36:09",
+ "atualizado_em": "2026-08-28 11:40:34",
  "blocos": {
   "0a5c82562c": {
    "en": "# Installation",
@@ -74,19 +74,19 @@
    "qa": "ok",
    "tipo": "md"
   },
+  "a9d94e4a88": {
+   "en": "Paid failures of the bench (deploy freezes secret, gateway cuts at ~150 s →  \nalways `.remote()`, requirements that break) are documented in  \n`pesquisa/dominio-bancada-modal.md` — read before the first launch.",
+   "modelo": "phi-4",
+   "orfao": false,
+   "pt": "As falhas pagas da bancada (deploy congela secret, gateway corta em ~150 s →\nsempre `.remote()`, requirements que quebram) estão documentadas em\n`pesquisa/dominio-bancada-modal.md` — leia antes da primeira subida.",
+   "qa": "ok",
+   "tipo": "md"
+  },
   "b667d8b4ea": {
    "en": "## Regenerate the Scene (Optional) — Blender 4.x",
    "modelo": "phi-4",
    "orfao": false,
    "pt": "## Regerar a cena (opcional) — Blender 4.x",
-   "qa": "ok",
-   "tipo": "md"
-  },
-  "b863b119a0": {
-   "en": "Paid failures of the bench (deploy freezes secret, gateway cuts at ~150 s →  \nalways `.remote()`, requirements that break) are documented in  \n`pharo/dominio-bancada-modal.md` — read before the first launch.",
-   "modelo": "phi-4",
-   "orfao": false,
-   "pt": "As falhas pagas da bancada (deploy congela secret, gateway corta em ~150 s →\nsempre `.remote()`, requirements que quebram) estão documentadas em\n`pharo/dominio-bancada-modal.md` — leia antes da primeira subida.",
    "qa": "ok",
    "tipo": "md"
   },

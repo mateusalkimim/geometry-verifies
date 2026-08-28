@@ -8,13 +8,13 @@ P4 no crepúsculo — a receita que fechou a régua (estimado + enxerto do poste
   M4     o critério do crepúsculo (p1 ≥ 8, mediana ≥ 25 — "dark but not black")
   M5     fantasma de canto, com recortes p/ conferência a olho
   D1     INDICADOR mecânico de direção da luz (esq vs dir) — registra a
-         leitura; o julgamento da luz é do operador, a olho.
+         leitura; o julgamento da luz é do autor, a olho.
 
 Insumos REUSADOS de disco (mesma proveniência da rodada P4 neutra):
 prototipos/insumos/P4-depth-composto.png + casa-proxy.png como referência.
 Prompt = o crepúsculo SELADO do console (idêntico ao do braço B da mesa).
 
-Roda:  ~/venvs/fal/bin/python rodar_p4_crepusculo.py
+Roda:  o ambiente virtual do projeto rodar_p4_crepusculo.py
 """
 import base64
 import hashlib
@@ -44,7 +44,7 @@ PROMPT_CREPUSCULO = (
 
 
 def d1_indicador(rgb):
-    """Leitura, não portão: luz pedida 'from the left' → terço esquerdo do céu
+    """Leitura, não verificação: luz pedida 'from the left' → terço esquerdo do céu
     (metade de cima) mais claro que o direito. Devolve razão esq/dir."""
     import numpy as np
     topo = rgb[: rgb.shape[0] // 2].astype(float).mean(axis=2)

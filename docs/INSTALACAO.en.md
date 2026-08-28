@@ -42,7 +42,7 @@ modal app stop mesa-fronteira-flux2 --yes # descer ao terminar (custo!)
 
 Paid failures of the bench (deploy freezes secret, gateway cuts at ~150 s →  
 always `.remote()`, requirements that break) are documented in  
-`pharo/dominio-bancada-modal.md` — read before the first launch.
+`pesquisa/dominio-bancada-modal.md` — read before the first launch.
 
 ## Regenerate the Scene (Optional) — Blender 4.x
 

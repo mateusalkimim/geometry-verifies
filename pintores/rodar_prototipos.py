@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Cirurgia da obediência — rodada P1–P3 (pharo/dominio-cirurgia-obediencia-flux2.md).
+Cirurgia da obediência — rodada P1–P3 (pesquisa/dominio-cirurgia-obediencia-flux2.md).
 
 UMA variável por protótipo, contra a linha de base da mesa (z-buffer cru):
   P1  controle = depth ESTIMADO sobre o nosso proxy (DA-V2-Small, Apache — H1)
@@ -11,7 +11,7 @@ UMA variável por protótipo, contra a linha de base da mesa (z-buffer cru):
 Constantes seladas da mesa: prompt neutro EXATO, 3 sementes, 1216×832,
 escala 0,75, guidance 4,0, 50 passos. Régua: M1–M3 da bateria calibrada.
 
-Roda:  ~/venvs/fal/bin/python rodar_prototipos.py   (precisa do pacote modal)
+Roda:  o ambiente virtual do projeto rodar_prototipos.py   (precisa do pacote modal)
 """
 import base64
 import hashlib

@@ -6,9 +6,9 @@
 
 A PILHA É A DO SEMINÁRIO, NÚMERO POR NÚMERO: SDXL 1.0 + controlnet-depth-sdxl
 do xinsir, 28 passos, cfg 6,5, força 0,8, euler/normal, 1216x832. Não é
-nostalgia — é a única pilha desta casa com resultado medido a favor:
+nostalgia — é a única pilha deste projeto com resultado medido a favor:
 
-  - venceu a mesa cega contra o condicionamento (linha de base, 3 de 3);
+  - venceu a comparação cega contra o condicionamento (linha de base, 3 de 3);
   - é NÃO-DESTILADA com CFG de verdade, que é o regime de BORDA PERDIDA pela
     lei da destilação (o Z-Image só existe como Turbo, e Turbo dá granito);
   - obedeceu à geometria com mediana de 0,0 px no seminário.

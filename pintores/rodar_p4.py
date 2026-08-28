@@ -10,7 +10,7 @@ controle  = depth ESTIMADO do proxy (P1: régua fina a −0,25/+0,49%)
 referência = proxy render (P2: travou parede a 4 px).
 
 3 folhas, sementes/prompt/params selados. Régua M1–M3 da bateria.
-Roda:  ~/venvs/fal/bin/python rodar_p4.py
+Roda:  o ambiente virtual do projeto rodar_p4.py
 """
 import base64
 import hashlib
